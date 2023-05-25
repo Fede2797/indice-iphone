@@ -3,14 +3,14 @@
 @tailwind utilities;
 
 @font-face {
+    font-family: "MabryPro";
+    src: url('/MabryPro-Regular.ttf');
+}
+/* @font-face {
     font-family: MabryPro;
-    src: url('/public/fonts/MabryPro-Regular.woff2') format('woff2'), 
-         url('/public/MabryPro-Regular.ttf') format('ttf'),;
+    src: url('/fonts/MabryPro-Regular.woff2'), 
+         url('/MabryPro-Regular.ttf'),;
     font-weight: normal;
     font-style: normal;
     font-display: swap;
-}
-
-.MabryPro {
-    font-family: "MabryPro";
-}
+} */

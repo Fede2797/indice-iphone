@@ -5,6 +5,9 @@ export default {
     extend: {
       colors: {
         'yellow': '#FFC900',
+      },
+      fontFamily: {
+        'mabry': 'MabryPro'
       }
     },
   },
