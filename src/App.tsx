@@ -15,11 +15,11 @@ export function App() {
         </ul>
 
         {/* First comparison section */}
-        <div className="w-[95%] max-w-[400px] h-[180px] px-5 py-3 flex justify-around items-center rounded-[20px] bg-white border-black border-2 text-2xl text-center leading-none">
+        <div className="max-w-[95%] h-[180px] px-5 py-3 flex justify-around items-center rounded-[20px] bg-white border-black border-2 text-2xl text-center leading-none">
           {/* First value of a product*/}
           <span className="shrink mx-4">1</span>
-          <span className="w-full">
-            <img src="iphone14.png" alt="" />
+          <span className="shrink">
+            <img className="max-w-[125px]" src="iphone14.png" alt="" />
           </span>
           {/* Equals to */}
           <span className="shrink mx-4">=</span>
